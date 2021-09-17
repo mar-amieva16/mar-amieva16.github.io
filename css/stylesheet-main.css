@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&family=Montserrat:wght@300&display=swap");
+
+body {
+  background-image: url("/img/fondito.png");
+  background-color: #d9ead7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kaisei Tokumin", serif;
+  color: #1e2d2f;
+  text-align: center;
+  text-align: justify;
+}
+
+#titular p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 130%;
+  color: #1e2d2f;
+  text-align: center;
+  text-align: justify;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 105%;
+  color: #1e2d2f;
+  text-align: center;
+  text-align: justify;
+}
+
+::selection {
+  color: white;
+  background: #ba264b;
+}
+
+/*Banner*/
+
+#cont-f {
+  background-color: #5e8c61;
+  padding: 20px;
+}
+
+#cont-izq {
+  text-align: center;
+}
+#img-banner {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  background-color: #ba264b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 120%;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.card-group {
+  margin-top: 20px;
+}
+
+.card h5 {
+  font-family: "Kaisei Tokumin", serif;
+  color: #1e2d2f;
+  text-align: center;
+  font-size: 120%;
+}
+
+.card {
+  background-color: #d9ead7;
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+  color: #1e2d2f;
+}
+
+#boton-Rengoku {
+  background-color: #ba264b;
+  border-color: #ba264b;
+  text-align: center;
+}
+
+#boton-SailorMoon {
+  background-color: #ba264b;
+  border-color: #ba264b;
+}
+
+#boton-Link {
+  background-color: #ba264b;
+  border-color: #ba264b;
+}
+
+#footer {
+  background-color: #1e2d2f;
+  color: white;
+}
+
+#footer h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-family: "Kaisei Tokumin", serif;
+  text-align: center;
+}
+
+.nombre-footer {
+  color: white;
+  font-family: "Kaisei Tokumin", serif;
+  text-align: center;
+}
+
+#footer p {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+#footer a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: white;
+}

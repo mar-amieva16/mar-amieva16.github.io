@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&family=Montserrat:wght@300&display=swap");
+
+body {
+  background-image: url("/img/fondito.png");
+  background-color: #d9ead7;
+}
+
+::selection {
+  color: white;
+  background: #ba264b;
+}
+
+#img-cv {
+  max-width: 160px;
+  height: 120px;
+  border-radius: 80%;
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kaisei Tokumin", serif;
+  color: #1e2d2f;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+  color: #1e2d2f;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+  color: #1e2d2f;
+}
+
+#perfil-personal {
+  text-align: center;
+  background-color: #ba264b;
+  padding: 20px;
+  display: block;
+  border-radius: 30px;
+}
+
+#perfil-personal h1 {
+  text-align: center;
+  color: white;
+}
+
+#perfil-personal h2 {
+  text-align: center;
+  color: white;
+}
+
+#perfil-personal p {
+  text-align: center;
+  color: white;
+}
+
+.cont-cv {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#hab-int {
+  margin-top: 20px;
+  text-align: center;
+  /*background-color: #5e8c61;*/
+  padding: 20px;
+  border-radius: 30px;
+}
+
+#habilidades ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#experiencia-laboral {
+  background-color: #5e8c61;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  border-radius: 30px;
+}
+#intereses ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#educacion {
+  background-color: #5e8c61;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  border-radius: 30px;
+}
+
+#educacion ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#contacto {
+  text-align: center;
+  /*background-color: #ba264b;*/
+  padding: 20px;
+  display: block;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+#contacto h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#contacto p {
+  text-align: center;
+  font-size: 120%;
+}
+
+#cursos-certificaciones {
+  background-color: #5e8c61;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #1e2d2f;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#footer {
+  background-color: #1e2d2f;
+  color: white;
+}
+
+#footer h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-family: "Kaisei Tokumin", serif;
+  text-align: center;
+}
+
+.nombre-footer {
+  color: white;
+  font-family: "Kaisei Tokumin", serif;
+  text-align: center;
+}
+
+#footer p {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+#footer a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: white;
+}

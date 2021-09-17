@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&family=Montserrat:wght@300&display=swap");
+
+body {
+  background-image: url("/img/fondito.png");
+  background-color: #d9ead7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kaisei Tokumin", serif;
+  color: #1e2d2f;
+  text-align: center;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 120%;
+  color: #1e2d2f;
+  text-align: center;
+}
+
+::selection {
+  color: white;
+  background: #ba264b;
+}
+
+#container_links {
+  max-width: 600px;
+  margin: auto;
+}
+
+#img_links {
+  margin-top: 30px;
+  max-width: 150px;
+  margin: auto;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+}
+
+#container_links a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: #5e8c61;
+  padding: 20px;
+  display: block;
+  margin: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#footer {
+  background-color: #1e2d2f;
+  color: white;
+}
+
+#footer h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-family: "Kaisei Tokumin", serif;
+  text-align: center;
+}
+
+.nombre-footer {
+  color: white;
+  font-family: "Kaisei Tokumin", serif;
+  text-align: center;
+}
+
+#footer p {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+#footer a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: white;
+}
